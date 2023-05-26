@@ -1,0 +1,12 @@
+@import url("../src/styles/all-countries.css");
+@import url("../src/styles/error-search.css");
+@import url("../src/styles/search-bar.css");
+
+:root {
+  --gray: rgba(39, 36, 36, 0.73);
+  --transparent-white: rgba(231, 227, 227, 0.567);
+}
+
+.app-container {
+  margin-top: 100px;
+}

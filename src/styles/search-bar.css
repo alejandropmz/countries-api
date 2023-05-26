@@ -1,0 +1,33 @@
+.container-input {
+  display: flex;
+  align-items: center;
+}
+
+.container-input p {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.label-container {
+  padding: 10px;
+}
+
+.container-input label input {
+  outline: none;
+  border: solid 1px var(--gray);
+  border-radius: 10px;
+  padding: 5px;
+  color: var(--gray);
+  background-color: var(--transparent-white);
+}
+
+.container-input label input::placeholder {
+  font-size: 0.9rem;
+}
+
+.container-input label .bx {
+  font-size: 1.9rem;
+  color: var(--gray);
+  margin-top: 2px;
+} 
